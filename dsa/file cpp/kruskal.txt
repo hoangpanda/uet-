@@ -1,0 +1,8 @@
+// n là số đỉnh của đồ thị
+B1: khởi tạo MST với tổng trọng số = 0
+B2: sắp xếp các cạnh theo trọng số giảm dần
+B3: duyệt qua các cạnh đã được sắp xếp 
+nếu cạnh đó được thêm vào không tạo thành chu trình thì thêm cạnh đó vào cây khung
+// thuật toán sẽ kết thúc nếu số cạnh của MST là n - 1 
+// khi chạy xong ta có thể kết luận là đồ thị không liên thông nếu như tổng cạnh của 
+// cây khung != n - 1 (ví nếu không liên thông thì "MST" có thể có số cạnh nhỏ hơn n - 1 
