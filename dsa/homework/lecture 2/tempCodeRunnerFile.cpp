@@ -1,1 +1,2 @@
-temp->next = new_node;
+w_node = new Node(data);
+    new_nod
