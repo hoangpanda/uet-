@@ -1,0 +1,1 @@
+cout << tail->prev->data << endl;
